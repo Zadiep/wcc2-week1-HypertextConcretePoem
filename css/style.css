@@ -2,8 +2,10 @@
 /*This is a comment in CSS*/
 
 body{
-    font-family: Georgia, serif;
-}
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    font-size: 20px;
+  }
 
 h1{
     font-size: 50px;
@@ -34,7 +36,7 @@ p{
 /* The child will then be positioned absolute in realtion to the box container of the parent */
 /* positioning elements on the page is fundamental to understanding CSS: https://developer.mozilla.org/en-US/docs/Web/CSS/position */
 .title{
-    font-size: 100px;
+    font-size: 50px;
     width: 1000px;
     color: blueviolet;
     position: relative;
@@ -46,7 +48,7 @@ p{
     rotate: -18deg;
 }
 .title2{
-    font-size: 100px;
+    font-size: 50px;
     width: 2000px;
     color:blue;
     position: relative;
